@@ -87,13 +87,15 @@ button:disabled {
 
 .chat {
     display: flex;
+     height: 95vh;
+     overflow: auto;
 }
 
 .chat__sidebar {
     height: 100vh;
     color: white;
     background: #333744;
-    width: 50%;
+    width: 20%;
     overflow-y: scroll
 }
 
@@ -180,4 +182,13 @@ button:disabled {
     list-style-type: none;
     font-weight: 300;
     padding: 12px 24px 0 24px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #242320;
+    color: white;
+    text-align: center;
 }
